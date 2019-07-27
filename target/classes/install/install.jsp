@@ -88,7 +88,7 @@
 				jdbcUrls.add(resolveJdbcUrl(databaseType, databaseHost, databasePort, databaseName));
 				if (DatabaseType.MYSQL.equals(databaseType) && createDatabase) {
 					jdbcUrls.add(resolveJdbcUrl(databaseType, databaseHost, databasePort, "mysql"));
-					jdbcUrls.add(resolveJdbcUrl(databaseType, databaseHost, databasePort, "test"));
+					//jdbcUrls.add(resolveJdbcUrl(databaseType, databaseHost, databasePort, "test"));
 				}
 				for (String jdbcUrl : jdbcUrls) {
 					try {

@@ -45,7 +45,7 @@
 	public String resolveJdbcUrl(DatabaseType databaseType, String databaseHost, String databasePort, String databaseName) {
 		switch (databaseType) {
 			case MYSQL:
-				return String.format("jdbc:mysql://%s:%s/%s?useUnicode=true&characterEncoding=UTF-8", databaseHost, databasePort, databaseName);
+				return String.format("jdbc:mysql://%s:%s/%s?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC", databaseHost, databasePort, databaseName);
 			case SQLSERVER:
 				return String.format("jdbc:sqlserver://%s:%s;databasename=%s", databaseHost, databasePort, databaseName);
 			case ORACLE:
