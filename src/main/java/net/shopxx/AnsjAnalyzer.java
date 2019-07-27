@@ -13,7 +13,7 @@ package net.shopxx;
  * @version 6.1
  */
 public class AnsjAnalyzer extends org.ansj.lucene5.AnsjAnalyzer {
-  
+    
 	/**
 	 * 默认类型
 	 */
