@@ -44,8 +44,7 @@ public class AftersalesDaoImpl extends BaseDaoImpl<Aftersales, Long> implements 
 	public Page<Aftersales> findPage(Aftersales.Type type, Aftersales.Status status, Member member, Store store, Pageable pageable) {
 		CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
 		CriteriaQuery<Aftersales> criteriaQuery = criteriaBuilder.createQuery(Aftersales.class);
-		//Root<? extends Aftersales> root = criteriaQuery.from(type != null ? type.getClazz() : Aftersales.class);
-		Root<? extends Aftersales> root = criteriaQuery.from(Aftersales.class);
+		Root<? extends Aftersales> root = criteriaQuery.from(type != null ? type.getClazz() : Aftersales.class);
 		criteriaQuery.select(root);
 		Predicate restrictions = criteriaBuilder.conjunction();
 		if (status != null) {
