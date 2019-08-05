@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<meta name="author" content="SHOP++ Team">
-	<meta name="copyright" content="SHOP++">
+	<meta name="author" content="FARMER++ Team">
+	<meta name="copyright" content="FARMER++">
 	[@seo type = "INDEX"]
 		[#if seo.resolveKeywords()?has_content]
 			<meta name="keywords" content="${seo.resolveKeywords()}">
@@ -14,7 +14,7 @@
 		[#if seo.resolveDescription()?has_content]
 			<meta name="description" content="${seo.resolveDescription()}">
 		[/#if]
-		<title>${seo.resolveTitle()}[#if showPowered] - Powered By SHOP++[/#if]</title>
+		<title>${seo.resolveTitle()}[#if showPowered] - Powered By Farmer++[/#if]</title>
 	[/@seo]
 	<link href="${base}/favicon.ico" rel="icon">
 	<link href="${base}/resources/common/css/bootstrap.css" rel="stylesheet">
@@ -115,7 +115,7 @@
 				<div class="row">
 					<div class="col-xs-4">
 						<a href="${base}/">
-							<img class="logo" src="${setting.logo}" alt="${setting.siteName}">
+							  <img class="logo" src="${setting.logo}" alt="${setting.siteName}">  
 						</a>
 					</div>
 					<div class="col-xs-5">

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shopxx>
-	<setting name="siteName" value="SHOP++商城" />
+	<setting name="siteName" value="FARMER++" />
 	<setting name="siteUrl" value="http://localhost:8080" />
-	<setting name="logo" value="http://image.demo.b2b2c.shopxx.net/6.0/logo.png" />
-	<setting name="hotSearch" value="苹果,三星,索尼,华为,魅族,佳能,小米,美的,格力" />
-	<setting name="address" value="湖南长沙经济技术开发区" />
-	<setting name="phone" value="800-8888888" />
-	<setting name="zipCode" value="400000" />
-	<setting name="email" value="service@shopxx.net" />
-	<setting name="certtext" value="湘ICP备10000000号" />
+	<setting name="logo" value="/shopxx-b2b2c/resources/shop/images/logo.jpg" />
+	<setting name="hotSearch" value="farmer,vegetable,fruits" />
+	<setting name="address" value="110 Los Angeles ,CA 910001,US" />
+	<setting name="phone" value="800-1110-111" />
+	<setting name="zipCode" value="910001" />
+	<setting name="email" value="service@farmer.com" />
+	<setting name="certtext" value="00000001" />
 	<setting name="largeProductImageWidth" value="700" />
 	<setting name="largeProductImageHeight" value="700" />
 	<setting name="mediumProductImageWidth" value="300" />
